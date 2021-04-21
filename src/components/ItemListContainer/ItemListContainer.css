@@ -1,0 +1,19 @@
+.itemListContainer{
+    font-family: inherit;
+    font-size: 1.5rem;
+    }
+.background{
+    background-image: url(./Images/night-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 100vw 
+    }
+    @media screen and (min-width: 685px) {
+        .background{
+          background-image: url(./Images/night-unsplash.jpg)
+        }
+        .itemListContainer{
+          font-size: 2rem;}
+    }
